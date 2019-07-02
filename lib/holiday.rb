@@ -29,26 +29,7 @@ def add_supply_to_winter_holidays(holiday_hash, item)
 end
 
 
-
-
-
-
-
-
-
-add_supply_to_winter_holidays(holiday_supplies, "Baloons")
-
-
-
-
-
-
-
-
-
-
-
-
+add_supply_to_winter_holidays(holiday_supplies, "Baloons"
 
 def add_supply_to_memorial_day(holiday_hash, supply)
   
@@ -59,44 +40,13 @@ end
 add_supply_to_memorial_day(holiday_supplies, "baloons")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def add_new_season_and_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   holiday_hash[season] = {holiday_name} => supply_array}
   holiday_hash
 end
 
-mitzvos = ["seder", "matzah", "hagaddah"]
-add_new_season_and_holiday_with_supplies(holiday_supplies, :aviv, :pesach, mitzvos)
+mudseason = [ "California_Flooding",]
+add_new_season_and_holiday_with_supplies(holiday_supplies, :candles, :genderator, :go_bag )
 
 
 def all_winter_holiday_supplies(holiday_hash)
@@ -108,12 +58,6 @@ all_winter_holiday_supplies(holiday_supplies)
 
 
 def all_supplies_in_holidays(holiday_hash)
-  
-  
-  
-  
-  
-  
   
   holiday_hash.each do | season, holiday|
      puts "#{season.capitalize}:"
